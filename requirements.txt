@@ -1,1 +1,1 @@
-gpiozero==1.6.2
+gpiozero==2.0
