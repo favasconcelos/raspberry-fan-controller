@@ -9,8 +9,8 @@ from logging.handlers import RotatingFileHandler
 MIN_TEMP = 55  # celcius
 MAX_TEMP = 75  # celcius
 SLEEP_INTERVAL = 5  # seconds
-GPIO_PIN = 17  # pin number
-LOG_PATH = "/home/pi/Scripts/pi-fan-controller/output.log"
+GPIO_PIN = "GPIO18"  # pin number
+LOG_PATH = "/var/log/fancontrol-output.log"
 LOG_MAX_SIXE = 5000000 # in bytes
 LOG_ROTATION_FILES = 2 # number of log files
 
